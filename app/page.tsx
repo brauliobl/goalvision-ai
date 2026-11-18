@@ -22,7 +22,7 @@ export default function Home() {
     <main>
       <header className="topbar">
         <a className="brand" href="#"><span className="brand-mark">GV</span><span>GoalVision <b>AI</b></span></a>
-        <nav><a href="#modalidades">Modalidades</a><a href="#como-funciona">Como funciona</a><a href="#sobre">Sobre</a></nav>
+        <nav><a href="#modalidades">Modalidades</a><a href="#premium">Premium</a><a href="#como-funciona">Como funciona</a><a href="#sobre">Sobre</a></nav>
         <a className="header-cta" href="#jogos">Explorar análises <span>↗</span></a>
       </header>
 
@@ -61,6 +61,16 @@ export default function Home() {
 
       <section className="how section" id="como-funciona"><div className="eyebrow">SIMPLES E TRANSPARENTE</div><h2>Como funciona</h2><div className="steps"><div><span>01</span><h3>Escolhe o jogo</h3><p>Encontra o encontro e a modalidade que queres acompanhar.</p></div><div><span>02</span><h3>Consulta os dados</h3><p>Forma recente, desempenho, ausências e estatísticas relevantes.</p></div><div><span>03</span><h3>Compreende o cenário</h3><p>Probabilidades acompanhadas de explicações e fatores de risco.</p></div></div></section>
 
+
+      <section className="section" id="premium">
+        <div className="section-heading"><div><div className="eyebrow">GOALVISION AI PREMIUM</div><h2>Análises mais completas</h2><p>Uma experiência avançada para quem quer aprofundar a leitura de cada encontro.</p></div><span className="demo-pill">EM PREPARAÇÃO</span></div>
+        <div className="steps">
+          <div><span>01</span><h3>Mercados avançados</h3><p>Probabilidades de 1X2, ambas marcam, golos, cantos e cartões, sempre que existirem dados fiáveis.</p></div>
+          <div><span>02</span><h3>Jogadores e momentos</h3><p>Possíveis marcadores, resultado exato e metade mais produtiva, com explicação dos fatores considerados.</p></div>
+          <div><span>03</span><h3>Relatório aprofundado</h3><p>Forma recente, confrontos diretos, ausências, pontos fortes, riscos e nível de confiança.</p></div>
+        </div>
+        <p className="notice">O Premium está apresentado como pré-visualização. Pagamentos, desbloqueio de conta e ligação a fontes de dados ainda não estão ativos. Nenhuma previsão garante resultados.</p>
+      </section>
       <section className="about section" id="sobre"><div><div className="eyebrow">A NOSSA VISÃO</div><h2>O desporto é mais do que um resultado.</h2></div><p>O GoalVision AI nasce para tornar a análise desportiva mais acessível, organizada e transparente. Queremos apoiar os adeptos com informação útil, sem promessas de resultados garantidos.</p></section>
 
       <footer><a className="brand" href="#"><span className="brand-mark">GV</span><span>GoalVision <b>AI</b></span></a><span>© 2026 GoalVision AI · Feito para quem vê além do jogo.</span><a href="#sobre">Sobre o projeto ↑</a></footer>
