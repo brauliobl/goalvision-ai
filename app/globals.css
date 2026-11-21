@@ -40,3 +40,7 @@ html[data-theme="light"]{--bg:#f4f7f8;--panel:#ffffff;--panel2:#edf2f4;--text:#1
 
 /* Odds comparison and clearer model visualization */
 .model-bars{display:grid;gap:10px;margin:10px 0 18px}.model-bars>div{display:grid;grid-template-columns:58px 1fr 54px;gap:9px;align-items:center}.model-bars span,.model-bars b{font-size:10px;color:var(--muted)}.model-bars b{text-align:right;color:var(--green)}.model-bar-track{height:9px;border-radius:99px;background:var(--panel2);border:1px solid var(--line);overflow:hidden}.model-bar-track i{display:block;height:100%;border-radius:99px;background:var(--green);min-width:2px}.odds-tool{margin-top:18px;padding-top:15px;border-top:1px solid var(--line)}.odds-tool h4{margin:0 0 8px}.odds-tool>p{font-size:10px;line-height:1.6;color:var(--muted)}.odds-tool .prob-grid small{font-size:9px;color:var(--muted)}
+
+/* Quick competition directory: compact, scrollable like the reference */
+.league-shortcuts{max-height:310px;overflow-y:auto;padding:2px 3px 8px;scrollbar-width:thin;overscroll-behavior:contain}
+@media(max-width:760px){.league-shortcuts{max-height:270px;overflow-y:auto;grid-template-columns:repeat(2,minmax(0,1fr));scrollbar-width:thin}}
